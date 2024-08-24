@@ -1,1 +1,1 @@
-# Non-Blind-Audio-watermarking-using-Empirical-Mode-Decomposition-
+A sophisticated robust watermarking technique is capable of identifying modifications and preserving the integrity of the watermark, which enables the identification of the actual perpetrator. The proposed Non blind EMD is one technique that has demonstrated the capacity to preserve over 60% of the watermark even in the face of various attacks, such as filtering, cropping, and compression.
