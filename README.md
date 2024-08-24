@@ -10,26 +10,43 @@ Install the following libraries:
 5. pip install Wave
 
 
-Demo:
+**Demo:
+**
 
 A.Please update all paths in all libraries and sys paths, image paths in main files(part 1 and part2).
-B.watermark_embed.py file has to be executed first
-C.Import audio, give a text for watermarking(check output files for sample output)
-D.Select “initiate watermarking”
+
+B.watermark_embed.py file has to be executed first.
+
+C.Import audio, give a text for watermarking(check output files for sample output).
+
+D.Select “initiate watermarking”.
+
 E.Watermarking will take some time and the audio will be saved in the main files folder.
+
 F.Now we can compare the original and watermarked files.
-G.Select import watermarked audio. As the original audio is already selected with ‘Import Audio’, proceed with next step
+
+G.Select import watermarked audio. As the original audio is already selected with ‘Import Audio’, proceed with next step.
+
 H.Select ‘Compare files’ This will show if any significant changes took place in the audio file.
+
 I.Waveforms are shown portraying a clear visual representation of small spikes or changes to the watermarked audio.
+
 J.Alternately, user can make the modification to the watermarked audio as it is file that would be shared for distribution.  Now this file is selected for comparison with the original audio.
+
 K.This would likely show a large amount of changes in waveforms compared to previous checks.
 
 
-Demo 2:
+**Demo 2:
+**
+
 A.Lets see if the watermark can be recovered for the modified watermarked audio file.
+
 B.watermark_extraction.py is executed.
+
 C.Users have to select original and modified watermarked audio.
+
 D.Extract watermark button is clicked.
+
 E.It takes a while to process and the watermark will be extracted.
 
 
